@@ -4,33 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
   </head>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-    crossorigin="anonymous"
-  />
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
-  <body>
+  <body style="background-color: #f2f2f2">
     <nav
-      class="navbar navbar-expand-lg bg-dark border-bottom border-body"
-      data-bs-theme="dark"
+      class="navbar navbar-expand-lg border-bottom border-body"
+      style="background-color: #f2f2f2"
     >
       <div class="container-fluid ms-2 me-2">
         <a class="navbar-brand" href="#">
           <img
-            src="img/pdc-logo.png"
+            src="images/logo.png"
             width="20"
             height="24"
             class="d-inline-block align-text-top"
             alt="logo"
           />
-          Canarias
+          MilCajas
         </a>
         <button
           class="navbar-toggler"
@@ -47,26 +42,17 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
-                >Portada</a
+                >Inicio</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="deportes.html">Deportes</a>
+              <a class="nav-link" href="productos.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Rutas</a>
+              <a class="nav-link" href="testimonios.html">Testimonios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contáctanos</a>
-            </li>
-            <li class="nav-item m-2">
-              <i
-                class="bi bi-exclamation-triangle-fill"
-                style="color: yellow"
-              ></i>
-            </li>
-            <li class="nav item m-2">
-              <i class="bi bi-exclamation-circle-fill" style="color: red"></i>
+              <a class="nav-link" href="contactanos.html">Contáctanos</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -83,5 +69,181 @@
         </div>
       </div>
     </nav>
+
+    <div class="row mx-3 mt-2">
+      <div class="col">
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+              </ol>
+          </nav>
+      </div>
+    </div>
+
+    <div class="card text-bg-dark">
+      <img
+        src="./images/fondo.webp"
+        class="card-img"
+        style="height: 75vh; object-fit: cover; opacity: 0.8"
+      />
+      <div
+        class="card-img-overlay d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1 class="card-title display-1">MilCajas</h1>
+        <p class="card-text display-6">
+          Reutiliza, ahorra y protege el planeta, una caja a la vez.
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid  mt-4">
+      <div class="row overflow-auto">
+        <div class="col-xs-12 col-md-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">¿Quiénes Somos?</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">¿Qué Hacemos?</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Nuestros Valores</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Productos Destacados</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Beneficios de Elegir MilCajas</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-8 mt-1">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example overflow-auto" tabindex="0" style="height: 200px;">
+            <h4 id="list-item-1">¿Quiénes Somos?</h4>
+            <p>MilCajas nació de la visión de reducir el desperdicio en la industria de las mudanzas. Inspirados por la idea de Marty Metro, quien notó la corta vida útil de las cajas de mudanza, decidimos hacer algo al respecto. Somos una empresa comprometida con el medio ambiente y la economía circular, ofreciendo cajas de segunda mano en excelente estado a precios accesibles. Creemos en la sostenibilidad, la calidad y en dar una segunda vida a productos que normalmente se desechan tras un solo uso.</p>
+            <h4 id="list-item-2">¿Qué Hacemos?</h4>
+            <p>En MilCajas nos dedicamos a la recolección, inspección y venta de cajas usadas de alta calidad. Nuestro objetivo es facilitar a nuestros clientes una opción más económica y sostenible para embalar y transportar sus pertenencias. Todas nuestras cajas han sido verificadas para asegurar que cumplen con los estándares de resistencia y durabilidad. Al elegir MilCajas, nuestros clientes ahorran dinero y contribuyen activamente a reducir la huella de carbono.</p>            
+            <h4 id="list-item-3">Nuestros Valores</h4>
+            <ul>
+              <li><strong>Sostenibilidad:</strong> Nos enfocamos en reutilizar materiales para contribuir al cuidado del planeta.</li>
+              <li><strong>Ahorro:</strong> Ofrecemos una alternativa asequible para cubrir tus necesidades de mudanza y almacenamiento.</li>
+              <li><strong>Calidad:</strong> Seleccionamos y evaluamos cuidadosamente cada caja antes de ponerla a la venta.</li>
+            </ul>
+            <h4 id="list-item-4">Productos Destacados</h4>
+            <ul>
+              <li><strong>Cajas para Mudanza:</strong> Resistentes y en diferentes tamaños, ideales para cualquier tipo de mudanza.</li>
+              <li><strong>Cajas para Almacenamiento</strong> Perfectas para organizar y almacenar artículos en tu hogar u oficina.</li>
+              <li><strong>Kits de Embalaje:</strong> Paquetes que incluyen cajas, cintas adhesivas y otros materiales para facilitar tu mudanza.</li>
+            </ul>
+            <h4 id="list-item-5">Beneficios de Elegir MilCajas</h4>
+            <ul>
+              <li><strong>Ahorro:</strong> Obtén cajas de alta calidad por una fracción del precio de nuevas.</li>
+              <li><strong>Sostenibilidad</strong> Al reutilizar cajas, reduces el desperdicio y apoyas la economía circular.</li>
+              <li><strong>Comodidad</strong> Contamos con opciones de entrega a domicilio o recogida en nuestras instalaciones.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Preguntas Frecuentes (FAQ)</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+              ¿Cómo sé que las cajas están en buen estado?
+            </button>
+          </h2>
+          <div id="faqOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Todas nuestras cajas pasan por un proceso de inspección para asegurar que estén en excelente estado y listas para su reutilización.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+              ¿Ofrecen descuentos por compras al por mayor?
+            </button>
+          </h2>
+          <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sí, ofrecemos descuentos especiales para grandes pedidos. Contáctanos para más detalles sobre nuestras tarifas de volumen.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+              ¿Cómo puedo realizar un pedido?
+            </button>
+          </h2>
+          <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Puedes realizar tu pedido directamente en nuestra página o contactarnos por correo electrónico para asistencia personalizada.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+      <div class="container px-4 px-md-3 text-body-secondary">
+          <div class="row mb-3">
+              <div class="col-6">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="col">
+                              <h1 class="text-center mt-3">Milcajas</h1>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col">
+                              <p class="text-center">Creado por: Moisés, Ángel y Owen</p>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col">
+                              <p class="text-center">
+                                  <a href="#"
+                                      class="link-secondary link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Terminos
+                                      y servicios</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-6 mt-5">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="col">
+                              <p class="text-center">¡Síguenos en nuestras redes sociales!</p>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-12 col-md-3 d-flex justify-content-center">
+                                      <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                          href="#">
+                                          <i class="bi bi-facebook"></i> facebook
+                                      </a>
+                                  </div>
+                                  <div class="col-12 col-md-3 d-flex justify-content-center">
+                                      <a class="link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                          href="#">
+                                          <i class="bi bi-instagram"></i> instagram
+                                      </a>
+                                  </div>
+                                  <div class="col-12 col-md-3 d-flex justify-content-center">
+                                      <a class="link-info link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                          href="#">
+                                          <i class="bi bi-twitter"></i> twitter /<i class="bi bi-twitter-x"></i>
+                                      </a>
+                                  </div>
+                                  <div class="col-12 col-md-3 d-flex justify-content-center">
+                                      <a class="link-danger link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                          href="#">
+                                          <i class="bi bi-youtube"></i> youtube
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
   </body>
 </html>

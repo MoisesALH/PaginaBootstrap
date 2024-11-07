@@ -14,37 +14,3 @@
 .Open-cardboard-box-closeup-5-hex {
   color: #f2f2f2;
 }
-
-/* Color Theme Swatches in RGBA */
-.Open-cardboard-box-closeup-1-rgba {
-  color: rgba(242, 184, 133, 1);
-}
-.Open-cardboard-box-closeup-2-rgba {
-  color: rgba(114, 56, 22, 1);
-}
-.Open-cardboard-box-closeup-3-rgba {
-  color: rgba(165, 103, 67, 1);
-}
-.Open-cardboard-box-closeup-4-rgba {
-  color: rgba(242, 173, 133, 1);
-}
-.Open-cardboard-box-closeup-5-rgba {
-  color: rgba(242, 242, 242, 1);
-}
-
-/* Color Theme Swatches in HSLA */
-.Open-cardboard-box-closeup-1-hsla {
-  color: hsla(28, 81, 73, 1);
-}
-.Open-cardboard-box-closeup-2-hsla {
-  color: hsla(22, 66, 27, 1);
-}
-.Open-cardboard-box-closeup-3-hsla {
-  color: hsla(22, 41, 45, 1);
-}
-.Open-cardboard-box-closeup-4-hsla {
-  color: hsla(22, 81, 73, 1);
-}
-.Open-cardboard-box-closeup-5-hsla {
-  color: hsla(0, 0, 95, 1);
-}
