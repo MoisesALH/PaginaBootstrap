@@ -205,3 +205,23 @@
   border-color: #f2f2f2 !important;  /* Borde gris claro */
   color: #d1d1d1;  /* Texto gris claro */
 }
+
+/* Estilo personalizado para el botón outline */
+.btn-outline-custom {
+  border-color: #f2b885 !important;  /* Borde marrón claro */
+  color: #f2b885 !important;  /* Texto marrón claro */
+}
+
+/* Estilo al pasar el cursor (hover) */
+.btn-outline-custom:hover {
+  background-color: #f2b885 !important;  /* Fondo marrón claro */
+  border-color: #a66844 !important;  /* Borde marrón medio */
+  color: #fff !important;  /* Texto blanco */
+}
+
+/* Si el botón está deshabilitado */
+.btn-outline-custom:disabled {
+  border-color: #f2f2f2 !important;  /* Borde gris claro */
+  color: #d1d1d1;  /* Texto gris claro */
+  background-color: #f2f2f2 !important; /* Fondo gris claro */
+}
