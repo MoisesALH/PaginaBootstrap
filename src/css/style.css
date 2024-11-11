@@ -14,3 +14,194 @@
 .Open-cardboard-box-closeup-5-hex {
   color: #f2f2f2;
 }
+
+/* Custom CSS */
+:root {
+  --bs-primary: #f2b885;   /* Marrón Claro */
+  --bs-secondary: #733917; /* Marrón Oscuro */
+  --bs-success: #a66844;   /* Marrón Medio */
+  --bs-danger: #f2ad85;    /* Marrón Coral */
+  --bs-warning: #f2b885;   /* Marrón Claro */
+  --bs-info: #a66844;      /* Marrón Medio */
+  --bs-light: #f2f2f2;     /* Blanco Humo */
+  --bs-dark: #733917;      /* Marrón Oscuro */
+}
+/* Colores simplificados usando los nombres estándar de Bootstrap */
+
+/* Primario - Marrón Claro */
+.bg-primary {
+  background-color: #f2b885 !important;
+  color: #733917 !important; /* Texto oscuro para contraste */
+}
+
+.text-primary {
+  color: #f2b885 !important;
+}
+
+/* Secundario - Marrón Oscuro */
+.bg-secondary {
+  background-color: #733917 !important;
+  color: #f2f2f2 !important; /* Texto claro para contraste */
+}
+
+.text-secondary {
+  color: #733917 !important;
+}
+
+/* Éxito - Marrón Medio */
+.bg-success {
+  background-color: #a66844 !important;
+  color: #f2f2f2 !important; /* Texto claro para contraste */
+}
+
+.text-success {
+  color: #a66844 !important;
+}
+
+/* Peligro - Marrón Coral */
+.bg-danger {
+  background-color: #f2ad85 !important;
+  color: #733917 !important; /* Texto oscuro para contraste */
+}
+
+.text-danger {
+  color: #f2ad85 !important;
+}
+
+/* Advertencia - Marrón Claro (Reutilizado) */
+.bg-warning {
+  background-color: #f2b885 !important;
+  color: #733917 !important;
+}
+
+.text-warning {
+  color: #f2b885 !important;
+}
+
+/* Info - Marrón Medio (Reutilizado) */
+.bg-info {
+  background-color: #a66844 !important;
+  color: #f2f2f2 !important;
+}
+
+.text-info {
+  color: #a66844 !important;
+}
+
+/* Claro - Blanco Humo */
+.bg-light {
+  background-color: #f2f2f2 !important;
+  color: #733917 !important; /* Texto oscuro para contraste */
+}
+
+.text-light {
+  color: #f2f2f2 !important;
+}
+
+/* Oscuro - Marrón Oscuro */
+.bg-dark {
+  background-color: #733917 !important;
+  color: #f2f2f2 !important; /* Texto claro para contraste */
+}
+
+.text-dark {
+  color: #733917 !important;
+}
+
+/* Clases CSS para tu paleta de colores */
+
+/* Marrón Claro */
+.bg-cardboard-light {
+  background-color: #f2b885;
+  color: #733917; /* Para contraste */
+}
+
+.text-cardboard-light {
+  color: #f2b885;
+}
+
+/* Marrón Oscuro */
+.bg-cardboard-dark {
+  background-color: #733917;
+  color: #f2f2f2; /* Para contraste */
+}
+
+.text-cardboard-dark {
+  color: #733917;
+}
+
+/* Marrón Medio */
+.bg-cardboard-medium {
+  background-color: #a66844;
+  color: #f2f2f2; /* Para contraste */
+}
+
+.text-cardboard-medium {
+  color: #a66844;
+}
+
+/* Marrón Coral */
+.bg-cardboard-coral {
+  background-color: #f2ad85;
+  color: #733917; /* Para contraste */
+}
+
+.text-cardboard-coral {
+  color: #f2ad85;
+}
+
+/* Blanco Humo */
+.bg-cardboard-lightest {
+  background-color: #f2f2f2;
+  color: #733917; /* Para contraste */
+}
+
+.text-cardboard-lightest {
+  color: #f2f2f2;
+}
+
+/* Bordes */
+.border-cardboard-light {
+  border: 2px solid #f2b885;
+}
+
+.border-cardboard-dark {
+  border: 2px solid #733917;
+}
+
+.border-cardboard-medium {
+  border: 2px solid #a66844;
+}
+
+.border-cardboard-coral {
+  border: 2px solid #f2ad85;
+}
+
+.border-cardboard-lightest {
+  border: 2px solid #f2f2f2;
+}
+
+.border-custom-color {
+  border-color: #a66844 !important;  /* Marrón medio de tu paleta */
+}
+
+/* Color para el botón personalizado */
+.btn-custom {
+  background-color: #f2b885 !important; /* Marrón claro de tu paleta */
+  border-color: #f2b885 !important;  /* Borde con el mismo color */
+  color: #fff;  /* Texto blanco */
+}
+
+/* Color al pasar el cursor (hover) */
+.btn-custom:hover {
+  background-color: #a66844 !important; /* Cambiar a color marrón medio al hacer hover */
+  border-color: #a66844 !important; /* Borde marrón medio */
+  color: #fff;  /* Texto blanco al hacer hover */
+}
+
+/* Si el botón está deshabilitado */
+.btn-custom:disabled {
+  background-color: #f2f2f2 !important; /* Fondo gris claro */
+  border-color: #f2f2f2 !important;  /* Borde gris claro */
+  color: #d1d1d1;  /* Texto gris claro */
+}
