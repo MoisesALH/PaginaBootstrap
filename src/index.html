@@ -11,6 +11,90 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+        <style>
+          /* Paleta personalizada */
+          :root {
+            --primary-color: #f2b885;
+            --secondary-color: #733917;
+            --success-color: #a66844;
+            --info-color: #f2ad85;
+            --background-color: #f2f2f2;
+          }
+        
+          /* Sobrescribiendo colores Bootstrap */
+          .navbar,
+          .bg-body-tertiary {
+            background-color: var(--background-color) !important;
+          }
+        
+          .btn-primary,
+          .navbar-light .navbar-brand {
+            color: var(--primary-color) !important;
+            background-color: var(--primary-color) !important;
+          }
+        
+          .btn-outline-success,
+          .list-group-item-action,
+          .accordion-button {
+            border-color: var(--primary-color) !important;
+            color: var(--secondary-color) !important;
+          }
+        
+          .btn-outline-success:hover,
+          .list-group-item-action:hover,
+          .accordion-button:not(.collapsed) {
+            background-color: var(--primary-color) !important;
+            color: #fff !important;
+          }
+        
+          .card.text-bg-dark {
+            background-color: var(--secondary-color) !important;
+            color: var(--background-color) !important;
+          }
+        
+          /* Texto en el card de MilCajas */
+          .card.text-bg-dark .card-title,
+          .card.text-bg-dark .card-text {
+            color: var(--background-color) !important;
+          }
+        
+          .breadcrumb {
+            background-color: var(--background-color) !important;
+            color: var(--secondary-color) !important;
+          }
+        
+          /* Breadcrumb text */
+          .breadcrumb .breadcrumb-item a,
+          .breadcrumb-item.active {
+            color: var(--secondary-color) !important;
+          }
+        
+          .accordion-item {
+            border: 1px solid var(--primary-color);
+          }
+        
+          .accordion-button::after {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="var(--secondary-color)" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+          }
+        
+          .accordion-button:not(.collapsed)::after {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="var(--secondary-color)" d="M1.646 11.354a.5.5 0 0 0 .708 0L8 5.707l5.646 5.647a.5.5 0 0 0 .708-.708l-6-6a.5.5 0 0 0-.708 0l-6 6a.5.5 0 0 0 0 .708z"/></svg>');
+          }
+        
+          /* Scrollspy colors */
+          .list-group-item-action.active {
+            background-color: var(--primary-color) !important;
+            color: #fff !important;
+          }
+        
+          .footer,
+          .text-body-secondary {
+            color: var(--secondary-color) !important;
+          }
+        </style>
+        
+        
+        
   </head>
   <body style="background-color: #f2f2f2">
     <nav class="navbar navbar-expand-lg border-bottom border-cardboard-medium bg-light">
